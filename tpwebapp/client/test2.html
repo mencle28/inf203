@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="test2.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Manipulation</title>
+</head>
+<body>
+  <div>
+    <button id="BUTSHOW" onclick="showJson()">Show txt</button>
+    <button id="BUT_ADD" onclick="showAddForm()">Add element</button>
+    <button id="REMOVE" onclick="showRemoveForm()">Remove element</button>
+    <button id="CLEAR" onclick="clearJson()">Clear</button>
+    <button id="RESTORE" onclick="restoreJson()">Restore</button>
+    <button id="PIEBUTTON" onclick="show_piechart()">Show pie</button>
+    <button id="BUT_LPI" onclick="showLocalPieChart()">Show local pie chart</button>
+  </div>
+  <div id="MAINSHOW"></div>
+  <div id="piechart"></div>
+  <div id="ADD_FORM">
+    Title: <input type="text" id="titleTF"><br>
+    Value: <input type="text" id="valueTF"><br>
+    Color: <input type="text" id="colorTF"><br>
+    <button id="DOADD" onclick="doAdd(document.getElementById('titleTF').value, document.getElementById('valueTF').value, document.getElementById('colorTF').value)">Add</button>
+  </div>
+  <div id="REMOVE_FORM" style="display: none;">
+    Index to remove: <input type="text" id="indexTF"><br>
+    <button id="VALIDREM" onclick="doRemove()">Remove</button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+
+.id1{
+    border: 1px solid;
+    padding: 9px;
+}
+.im1{
+    float:left; 
+    margin: 11px ;
+}
+
+.id3{
+        background-color: slategrey;
+        padding: 10px;
+        position: absolute;
+        top: 119px;
+        left: 119px;
+        width: 415px;
+        height: 415px;
+        z-index: 9999;
+        position:fixed;
+    }
+
+    
+     

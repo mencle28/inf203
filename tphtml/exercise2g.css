@@ -1,0 +1,32 @@
+.id1{
+    border: 1px solid;
+    padding: 9px;
+}
+.id2{
+    float: left;
+    margin-right: 11px;
+}
+.id3{
+    display: block;
+    background-color: slategrey;
+    padding: 10px;
+    position: absolute;
+    top: 119px;
+    left: 119px;
+    width: 415px;
+    height: 415px;
+    z-index: 9999;
+    position:fixed;
+    color: black;
+   
+}
+
+
+    #id3:hover{
+        color: orangered;
+    }
+    #id3:active{
+        display: None;
+    }
+  
+    

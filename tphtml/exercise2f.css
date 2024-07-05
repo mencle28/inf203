@@ -1,0 +1,32 @@
+    #id1{
+        border: 1px solid;
+        padding: 9px;
+    }
+    #id2{
+        float: left;
+        margin-right: 11px;
+    }
+    #div_3 {
+        background-color: slategrey;
+        padding: 10px;
+        margin: 10px;
+    }
+
+   
+.third {
+    position: fixed;
+    left: 119px;
+    top: 119px;
+    width: 435px;
+    height: 435px;
+}
+
+.third:active{
+    display:none;
+}
+
+.third:active{
+    display: block;
+}
+  
+    
